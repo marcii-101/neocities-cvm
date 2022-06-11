@@ -12,6 +12,7 @@ git clone http://github.com/neocities/neocities.git
 vagrant --version || doVagrant
 git --version || sudo apt install -y git
 virt-manager --version || sudo apt install -y virt-manager
+virtualbox --version || sudo apt install -y virtualbox
 curl --version || sudo apt install -y curl
 ls ~/neocities || download
 cd ~/neocities
